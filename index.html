@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <!--FontAwesome cdn-->
+    <script src="https://kit.fontawesome.com/a3f2416ed6.js" crossorigin="anonymous"></script>
+    <!--Remix icon cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="menu"><i class="ri-apps-2-line"></i></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">literary, fiction</a></li>
+                    <li><a href="#">economic, management</a></li>
+                    <li><a href="#">humanities and society</a></li>
+                    <li><a href="#">art, pop culture</a></li>
+                    <li><a href="#">infant, children & youth</a></li>
+                    <li><a href="#">bestseller</a></li>
+                    <li><a href="#">today's book</a></li>
+                    <li><a href="#">time sale</a></li>
+                </ul>
+            </div>
+            <div class="logo"><a href="index2.html">Book Store</a></div>
+            <div class="icons">
+                <span class="shoppingbag"><a href="index3.html"><i class="ri-shopping-bag-2-line"></i></a></span>
+                <span class="login"><i class="ri-login-box-line"></i></span>
+            </div>
+        </header>
+        <section class="sec1">
+            <div class="container">
+                <div class="book">
+                    <div class="cover">
+                        <img src="img/alittlelife.jpeg" alt="a littile book cover">
+                    </div>
+                    <div class="content">
+                        <p>ONE OF THE BEST BOOKS OF 2015</p>
+                        <h1>A Little Life</h1>
+                        <h3> by Hanya Yanagihara</h3>
+                        <div class="genre">
+                            <span>novel</span>
+                            <span>bildungsroman</span>
+                            <span>family novel</span>
+                        </div>
+                        <div class="grade">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <div class="button">
+                            <div class="buy btn">Buy $14.99</div>
+                            <div class="shopping btn">Add to cart</div>
+                            <div class="bookmark btn">
+                                <i class="ri-bookmark-line"></i>
+                                Bookmark
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="text">about the book</div>
+                    <div class="description">
+                        <p class="prize">WINNER OF THE KIRKUS PRIZE <br>
+                            A MAN BOOKER PRIZE FINALIST<br>
+                            A NATIONAL BOOK AWARD FINALIST</p>
+                        <p class="summary">"A Little Life" follows four college classmates broke, adrift, and buoyed
+                            only by their
+                            friendship and ambition as they move to New York in search of fame and fortune. While
+                            their
+                            relationships, which are tinged by addiction, success, and pride, deepen over the
+                            decades,
+                            the men are held together by their devotion to the brilliant, enigmatic Jude, a man
+                            scarred
+                            by an unspeakable childhood trauma. A hymn to brotherly bonds and a masterful depiction
+                            of
+                            love in the twenty-first century, Hanya Yanagihara s stunning novel is about the
+                            families we
+                            are born into, and those that we make for ourselves.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="link">
+        <div class="link__icons">
+            <ul>
+                <li><a href="#"><i class="ri-home-3-line"></i></a></li>
+                <li><i class="ri-search-line" id="search-btn"></i></li>
+                <li><i class="ri-book-line" id="current__btn"></i></li>
+                <li><i class="ri-user-line" id="user__btn"></i></li>
+            </ul>
+        </div>
+    </section>
+    <section class="search" id="search">
+        <form action="#">
+            <input type="text" placeholder="search by title or author">
+            <i class="fas fa-search"></i>
+            <div class="search-close"><i class="ri-close-line"></i></div>
+        </form>
+    </section>
+    <section class="current" id="current">
+        <div class="current__content">
+            <div class="current__buy">
+                <h1>Buy</h1>
+            </div>
+            <div class="current__bookmark">
+                <h1>Bookmark</h1>
+            </div>
+        </div>
+        <div class="current-close"><i class="ri-close-line"></i></div>
+    </section>
+    <section class="user" id="user">
+        <div class="user-container">
+            <div class="form-container sign-up-container active">
+                <form action="#">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <button class="btn">Sign Up</button>
+                    <div class="change">
+                        <div class="change__btn">
+                            <button class="sign-in-btn">Sign In</button>
+                        </div>
+                    </div>
+                    <div class="sign-in-close"><i class="ri-close-line"></i></div>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <a href="#">Forgot your password?</a>
+                    <button class="btn">Sign In</button>
+                    <div class="change">
+                        <div class="change__btn">
+                            <button class="sign-up-btn">Sign Up</button>
+                        </div>
+                    </div>
+                    <div class="sign-up-close"><i class="ri-close-line"></i></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
